@@ -10,6 +10,7 @@ collections:
     label: 'Concert'
     folder: 'src/pages/concerts'
     create: true
+    identifier_field: name
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
@@ -29,6 +30,7 @@ collections:
     label: 'Composer'
     folder: 'src/pages/composers'
     create: true
+    identifier_field: name
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Birth Date', name: 'birthDate', widget: 'date', format: 'YYYY', default: '' }
